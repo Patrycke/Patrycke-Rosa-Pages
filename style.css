@@ -130,3 +130,53 @@ html {
     background-color: #3d3d3d;
     border-color: #000000;
 }
+
+/* Limita a largura do formulário para não ficar esticado demais em telas grandes */
+.max-width-custom {
+    max-width: 1300px;
+}
+
+/* Estilo personalizado para os campos de entrada */
+#contato .form-control {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white !important;
+}
+
+#contato .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 0.25 
+}
+
+/* Estilo para os Placeholders (o texto de exemplo) */
+#contato .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important; /* Branco com transparência para não confundir com o texto digitado */
+    opacity: 1; /* Necessário para o Firefox */
+}
+
+/* Botão Laranja AJC */
+.btn-white {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-white:hover {
+    background-color: #198b15;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+footer h5 {
+    letter-spacing: 1px;
+}
+
+footer .text-secondary {
+    font-size: 0.85rem;
+}
